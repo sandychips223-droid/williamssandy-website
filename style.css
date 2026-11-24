@@ -1,0 +1,312 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0cc4f1;
+    align-items: center;
+    border-radius: 0 30px;
+    padding: 20px 40px;
+    border-bottom: 8px solid #0052cd;
+}
+
+.logo img {
+    width: 100apx;
+}
+
+/* Navigasi Mendatar */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8f4f4;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1519ee;
+}
+
+/* Tombol Header */
+.btn-hire {
+    background-color: #0f8ee4;
+    color: rgb(233, 230, 230);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-hire:hover {
+    background-color: #003ba8;
+}
+
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.left-hero {
+    flex: 1;
+}
+
+.left-hero h3 {
+    color: #1650ce;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.left-hero h1 {
+    font-size: 48px;
+    color: #0b4cad;
+    margin: 0 0 15px 0;
+}
+
+.left-hero p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn-explore {
+    background-color: #124ac4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right-hero img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #00a2ff
+}
+
+.Williams-span {
+    background-image: linear-gradient(to right, #00aeff, white);
+    padding: 6px 25px;
+    border-left: 12px solid #0051ff;
+    border-radius: 0 25px;
+}
+
+.Williams-span:hover {
+    color: #0051ff
+}
+
+.btn-explore:hover {
+    background-image: linear-gradient(to right, #046ffaad, #00aeff)
+}
+
+#about {
+    background-color: #00a2ff;
+    padding: 25px;
+    display: flex;
+}
+
+#about h1 {
+    color: #0051ff
+}
+
+.left-about {
+    align-self: center;
+}
+
+.right-about {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    min-width: 300px;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 0 0 0 30px;
+    border-left: 12px groove #0066ff;
+    padding: 20px;
+    transition: transform 0.5s ease, background-image 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+    box-shadow: 4px 4px 8px   #0026ff;
+}
+
+#projects {
+    padding: 40px;
+}
+#projects h1 {
+    color: #0051ff;
+}
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.project-card {
+    background-color: #00aeff;
+    padding: 12px;
+    border-left: 12px groove #0059cd;
+    border-radius: 0 0 0 40px;
+    width: 300px;
+}
+.project-card h3 {
+    text-align: center;
+    color: #fafafa;
+    width: 95%;
+    
+}
+.project-card:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+    box-shadow: 4px 4px 12px #0066ff;
+}
+.project-card img {
+    width: 80%;
+}
+Williams Budiono - Code CSS Contact dan Footer.txt
+100%
+/* ===== CONTACT: 2 columns ===== */
+  .contact {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+
+  .contact-info,
+  .contact-form {
+    flex: 1;
+  }
+
+  /* Left column */
+  .contact-info h2 {
+    color: #0059cd;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+
+  .contact-info p {
+    margin-bottom: 20px;
+  }
+
+  .contact-info a {
+    display: block;
+    width: fit-content;
+    margin-bottom: 12px;
+    padding: 8px 20px;
+    background: rgb(11, 189, 243);
+    color: #1f2a5c;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #0f299c;
+    border-radius: 30px;
+  }
+
+  .contact-info a:hover {
+    background: #0660e7;
+  }
+
+  /* Right column */
+  .contact-form {
+    background: white;
+    padding: 30px;
+    border: 2px solid #1f2a5c;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 #ffc93c;
+  }
+
+  .contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 2px solid #1f2a5c;
+    border-radius: 10px;
+    background: #eaf2ff;
+  }
+
+  .contact-form button {
+    padding: 12px 28px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #0059ff;
+    border: none;
+    border-radius: 0 12px 0 12px;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background: #00aeff;
+    color: #ffffff;
+    border: 2px solid #450d0d;
+  }
+
+  /* ===== FOOTER: 1 column ===== */
+  .footer {
+    background: #006eff;
+    color: #eaf2ff;
+    text-align: center;
+    padding: 40px 20px;
+  }
+.footer h3 {
+  color: #ffffff;
+}
+  .footer h5 {
+    color: #eaf2ff;
+    margin-bottom: 10px;
+  }
+Displaying Williams Budiono - Code CSS Contact dan Footer.txt.
